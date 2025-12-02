@@ -128,7 +128,7 @@ async function enviarPlantillaMenuHoy(to) {
         {
           type: "image",
           image: { 
-            link: "https://i.ibb.co/m56Q7Lyb/Chat-GPT-Image-1-dic-2025-07-57-37-p-m.png"
+            link: "https://pollofelizsaltillo.com.mx/wp-content/uploads/2025/04/Pollo-Feliz-Saltillo-Promociones-1536x864.jpg"
           }
         }
       ]
