@@ -16,7 +16,7 @@ const {
 
 const accessToken = "EAAa6SbXtAUYBP2yZBqrFwLWFc6U8J7ZBK16gC7T3ae1nRAhiWvj8gjDhW315dx8WJKrA01CBwY5qFIO6mbqD9bSUW6kjUSYxccSEFtpW36GSjMsqKaRqIExfzZBUWWB2Kh3UNxj9cPBR6SHqPx4cevqTCjywilOa7Nffvkkjm43h1y1mydZBypWsboaFAAZDZD";
 const phoneNumberId = "779293688610562";
-const API_HOST = process.env.API_HOST || '192.168.0.8';
+const API_HOST = process.env.API_HOST || '192.168.1.105';
 
 async function registrarPedidoEnAPI(numeroWhatsApp, datosPedido) {
   try {
@@ -29,7 +29,7 @@ async function registrarPedidoEnAPI(numeroWhatsApp, datosPedido) {
       }
     ];
     
-    // Preparar el payload para la API PHP
+    // Preparar el payload
     const payload = {
       numero_whatsapp: numeroWhatsApp,
       nombre: datosPedido.nombre || '',
@@ -40,7 +40,7 @@ async function registrarPedidoEnAPI(numeroWhatsApp, datosPedido) {
       notas: datosPedido.notas || ''
     };
         
-    // Enviar a tu API PHP
+    // Envio al api
     const response = await fetch(`http://${API_HOST}/whats/api.php/pedido`, {
       method: 'POST',
       headers: {
@@ -161,7 +161,7 @@ async function mostrarOpcionesDePago(to, platillo, precio, tipoEntrega, nombreCl
     mensaje += `2. DEPÓSITO - Te enviaremos datos bancarios\n`;
     mensaje += `3. CANCELAR\n\n`;
 
-    // SOLO UN ENVÍO
+    // Solo un envio
     await enviarMensajeTexto(to, mensaje);
     
   } catch (error) {
@@ -451,7 +451,7 @@ async function handleIncomingMessage(payload) {
         return;
       }
       
-      // Si está esperando nombre del cliente
+      // Esperando nombre
       if (session.step === 'awaiting_name') {
         console.log(`Nombre recibido: "${body}"`);
         
@@ -474,7 +474,7 @@ async function handleIncomingMessage(payload) {
         return;
       }
 
-      //Pago seleccionado
+      // Pago seleccionado
       if (session.step === 'plate_validated') {
         
         if (bodyLower.includes("efectivo") || bodyLower.includes("cash") || bodyLower === "efectivo") {
@@ -534,7 +534,7 @@ async function handleIncomingMessage(payload) {
         return;
       }
       
-      // Si está en estado payment_selected y escribe confirmación
+      // Confirmacion de pedido
       if (session.step === 'payment_selected') {
         
         if (bodyLower.includes("si") || bodyLower.includes("sí") || bodyLower.includes("confirmar") || bodyLower === "ok") {
