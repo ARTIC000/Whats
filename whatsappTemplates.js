@@ -609,7 +609,6 @@ function logError(payload, error) {
   const errorData = error.response?.data || error.message;
   const logMessage = `${new Date().toISOString()} - Error enviando: ${JSON.stringify(payload)}\nError: ${JSON.stringify(errorData)}\n`;
   fs.appendFileSync("template_log.txt", logMessage);
-  console.error("❌ Error enviando plantilla:", errorData);
 }
 
 module.exports = {
