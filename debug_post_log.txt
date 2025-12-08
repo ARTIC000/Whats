@@ -27897,3 +27897,994 @@
   ]
 }
 
+2025-12-08T19:03:07.278Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Angel G"
+                },
+                "wa_id": "5216183105006"
+              }
+            ],
+            "messages": [
+              {
+                "from": "5216183105006",
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABIYFDNCNjZFMDFFRTk0ODg0NDRGMzAxAA==",
+                "timestamp": "1765220583",
+                "text": {
+                  "body": "Hola"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:03:11.232Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjNEODRFMEQxQkI3Njk0ODY4QQA=",
+                "status": "sent",
+                "timestamp": "1765220590",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "PMP",
+                  "category": "marketing",
+                  "type": "regular"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:03:11.939Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjNEODRFMEQxQkI3Njk0ODY4QQA=",
+                "status": "delivered",
+                "timestamp": "1765220591",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "PMP",
+                  "category": "marketing",
+                  "type": "regular"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:03:15.771Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Angel G"
+                },
+                "wa_id": "5216183105006"
+              }
+            ],
+            "messages": [
+              {
+                "context": {
+                  "from": "15556349540",
+                  "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjNEODRFMEQxQkI3Njk0ODY4QQA="
+                },
+                "from": "5216183105006",
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABIYFDNCOEQwRTc5MTI4QzJFOTU3RTk1AA==",
+                "timestamp": "1765220594",
+                "type": "button",
+                "button": {
+                  "payload": "ver_menu_hoy",
+                  "text": "Ver menú de hoy"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:03:26.794Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEkE0MzEyOTFBQTc2NzcwMTEyQgA=",
+                "status": "sent",
+                "timestamp": "1765220604",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "PMP",
+                  "category": "marketing",
+                  "type": "regular"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:03:28.178Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEkE0MzEyOTFBQTc2NzcwMTEyQgA=",
+                "status": "delivered",
+                "timestamp": "1765220607",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "PMP",
+                  "category": "marketing",
+                  "type": "regular"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:03:59.538Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Angel G"
+                },
+                "wa_id": "5216183105006"
+              }
+            ],
+            "messages": [
+              {
+                "context": {
+                  "from": "15556349540",
+                  "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEkE0MzEyOTFBQTc2NzcwMTEyQgA="
+                },
+                "from": "5216183105006",
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABIYFDNCNkI4MUFFMTg2OTQwNEYwRTY0AA==",
+                "timestamp": "1765220638",
+                "type": "button",
+                "button": {
+                  "payload": "realizar_pedido",
+                  "text": "Realizar pedido"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:01.546Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjg2ODNCM0Q0MUI0N0I3NjNEMwA=",
+                "status": "sent",
+                "timestamp": "1765220640",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "PMP",
+                  "category": "marketing",
+                  "type": "regular"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:02.076Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjg2ODNCM0Q0MUI0N0I3NjNEMwA=",
+                "status": "delivered",
+                "timestamp": "1765220641",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "PMP",
+                  "category": "marketing",
+                  "type": "regular"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:03.625Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Angel G"
+                },
+                "wa_id": "5216183105006"
+              }
+            ],
+            "messages": [
+              {
+                "context": {
+                  "from": "15556349540",
+                  "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjg2ODNCM0Q0MUI0N0I3NjNEMwA="
+                },
+                "from": "5216183105006",
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABIYFDNCQUE1NDRGQ0FGMENGQkRBRjg1AA==",
+                "timestamp": "1765220642",
+                "type": "button",
+                "button": {
+                  "payload": "para_recoger_local",
+                  "text": "Para recoger en el local"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:05.186Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjNDRTA3NkNFNTk5NkUxMDFCMAA=",
+                "status": "sent",
+                "timestamp": "1765220644",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:05.816Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjNDRTA3NkNFNTk5NkUxMDFCMAA=",
+                "status": "delivered",
+                "timestamp": "1765220645",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:17.058Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Angel G"
+                },
+                "wa_id": "5216183105006"
+              }
+            ],
+            "messages": [
+              {
+                "from": "5216183105006",
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABIYFDNCNUJEMjY1RTUyNTE1RjlGOUQ5AA==",
+                "timestamp": "1765220656",
+                "text": {
+                  "body": "pollo"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:18.889Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEkY5MjcyOEM1OTIyQ0VDQ0JCMAA=",
+                "status": "sent",
+                "timestamp": "1765220658",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:19.861Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEkY5MjcyOEM1OTIyQ0VDQ0JCMAA=",
+                "status": "delivered",
+                "timestamp": "1765220658",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:25.513Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Angel G"
+                },
+                "wa_id": "5216183105006"
+              }
+            ],
+            "messages": [
+              {
+                "from": "5216183105006",
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABIYFDNCMDUxNjAxQjk5M0NFQTRCQUJGAA==",
+                "timestamp": "1765220664",
+                "text": {
+                  "body": "angel"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:27.448Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjk5MDVENjA5RDE2NzExMEY4MwA=",
+                "status": "sent",
+                "timestamp": "1765220666",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:29.030Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjk5MDVENjA5RDE2NzExMEY4MwA=",
+                "status": "delivered",
+                "timestamp": "1765220668",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:33.419Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Angel G"
+                },
+                "wa_id": "5216183105006"
+              }
+            ],
+            "messages": [
+              {
+                "from": "5216183105006",
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABIYFDNCNjk3QkQ0MkYwODU0QjY2ODE4AA==",
+                "timestamp": "1765220672",
+                "text": {
+                  "body": "efectivo"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:35.195Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjQzNzUzQTI5NjcwMjFCMjRFQgA=",
+                "status": "sent",
+                "timestamp": "1765220674",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:35.827Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjQzNzUzQTI5NjcwMjFCMjRFQgA=",
+                "status": "delivered",
+                "timestamp": "1765220675",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:40.391Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEkY3Q0Q4M0FDNUI0M0I1QjVBMwA=",
+                "status": "sent",
+                "timestamp": "1765220675",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:04:41.435Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEkY3Q0Q4M0FDNUI0M0I1QjVBMwA=",
+                "status": "delivered",
+                "timestamp": "1765220680",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:05:07.981Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Angel G"
+                },
+                "wa_id": "5216183105006"
+              }
+            ],
+            "messages": [
+              {
+                "from": "5216183105006",
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABIYFDNCRUQ0RTA5NzYzRDM0NUNGNDg3AA==",
+                "timestamp": "1765220706",
+                "text": {
+                  "body": "Confirmar"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:05:10.028Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjMyNzU3Qjg1RjVCRkE5MEM3MgA=",
+                "status": "sent",
+                "timestamp": "1765220709",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+
+2025-12-08T19:05:10.573Z - POST Request completo:
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "1914842332460966",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15556349540",
+              "phone_number_id": "779293688610562"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNNTIxNjE4MzEwNTAwNhUCABEYEjMyNzU3Qjg1RjVCRkE5MEM3MgA=",
+                "status": "delivered",
+                "timestamp": "1765220709",
+                "recipient_id": "5216183105006",
+                "pricing": {
+                  "billable": false,
+                  "pricing_model": "PMP",
+                  "category": "service",
+                  "type": "free_customer_service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+

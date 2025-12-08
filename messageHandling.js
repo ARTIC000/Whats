@@ -16,7 +16,7 @@ const {
 
 const accessToken = "EAAa6SbXtAUYBP2yZBqrFwLWFc6U8J7ZBK16gC7T3ae1nRAhiWvj8gjDhW315dx8WJKrA01CBwY5qFIO6mbqD9bSUW6kjUSYxccSEFtpW36GSjMsqKaRqIExfzZBUWWB2Kh3UNxj9cPBR6SHqPx4cevqTCjywilOa7Nffvkkjm43h1y1mydZBypWsboaFAAZDZD";
 const phoneNumberId = "779293688610562";
-const API_HOST = process.env.API_HOST || '192.168.91.13';
+const API_HOST = process.env.API_HOST || '172.16.100.109';
 
 async function registrarPedidoEnAPI(numeroWhatsApp, datosPedido) {
   try {
@@ -222,7 +222,6 @@ async function mostrarConfirmacionPedido(to, datosPedido) {
   try {
     await enviarPayload(to, "pedido_recoger", components);
   } catch (error) {
-    console.error("Err enviando confirmación:", error.message);
     await enviarMensajeTexto(to, "Responde:\n Confirmar\n Cancelar");
   }
 }
